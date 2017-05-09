@@ -1,0 +1,46 @@
+body{
+	overflow: hidden;
+}
+#main{
+	background-image: url(/img/logo.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+#login{
+	height: 50px;
+	position: fixed;
+	left: calc(50% - 300px);
+    top: calc(50% - 50px);
+}
+#login *{
+	height: 100%;
+	font-size: 35px;
+}
+.header{
+	background: white;
+	border-bottom: 1px solid;
+}
+#listUser, #listGame{
+	border: 1px solid black;
+	margin-top: 20px;
+	width: 300px;
+    background: wheat;
+    float: left;
+}
+#listUser span, #listGame span{
+	display: block;
+	width: 100%;
+}
+#listUser span:hover, #listGame span:hover{
+	background: blue;
+}
+.newGame{
+	float: right;
+}
+.newGame:hover{
+	cursor: pointer;
+	background: gray;
+}
